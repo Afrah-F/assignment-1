@@ -1,27 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Afrah Mohammed | Portfolio</title>
 </head>
 <body>
-    <header>
-        <h1>My Portfolio</h1>
-        
-    </header>
+  <!-- Simple Navbar -->
+  <header>
+    <nav>
+      <a href="#about">About</a> |
+      <a href="#projects">Projects</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+    <h1>Afrah Mohammed — Portfolio</h1>
+    <p>Computer Science student who enjoys building simple web projects</p>
+  </header>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hi, my name is <strong>Afrah Mohammed</strong>, a Computer Science student in kfupm 👩‍💻.  
-           I'm passionate about technology, problem-solving, and building creative projects.  
-           I enjoy learning new programming skills, exploring web development, and turning ideas into reality 🚀.</p>
-        
-    </section>
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi, my name is <strong>Afrah Mohammed</strong>, a Computer Science student 👩‍💻.
+      I'm passionate about technology, problem-solving, and building creative projects.
+      I enjoy learning new programming skills, exploring web development, and turning ideas into reality 🚀.
+    </p>
+    
+  </section>
 
-    <script src="js/script.js"></script>
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <!-- Project 1: CLUBZONE -->
+    <article>
+      <h3>🎯 CLUBZONE Platform</h3>
+      <p>
+        Developed as part of my <strong>SWE206</strong> course. CLUBZONE is a web
+        platform that allows students, club admins, and university admins to manage and
+        join student clubs more easily. My role included designing the user interface
+        and improving user experience.
+      </p>
+      <!-- Replace the src below with your image path: assets/images/clubzone.png -->
+      <img src="assets/images/clubzone.png" alt="CLUBZONE Project" width="400">
+    </article>
+
+    <!-- Project 2: Online Gaming -->
+    <article>
+      <h3>🎮 Online Gaming Data Analysis</h3>
+      <p>
+        Part of my <strong>COE292</strong> course. We collected online gaming data,
+        performed analysis, and visualized results to understand player behavior and
+        system performance. I practiced data handling, problem-solving, and teamwork.
+      </p>
+      <!-- Replace the src below with your image path: assets/images/online-gaming.png -->
+      <img src="assets/images/online-gaming.png" alt="Online Gaming Data Analysis" width="400">
+    </article>
+
+    <!-- Project 3: English 102 Presentation -->
+    <article>
+      <h3>📊 Saudi Electricity Investment Presentation</h3>
+      <p>
+        A presentation for my <strong>English 102</strong> course (May 16, 2024)
+        analyzing the benefits of investing in the Saudi Electricity Company.
+        It strengthened my research, academic writing, and presentation skills.
+      </p>
+      <!-- Replace the src below with your image path: assets/images/saudi-electricity.png -->
+      <img src="assets/images/saudi-electricity.png" alt="Saudi Electricity Presentation" width="400">
+    </article>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label>
+        Name
+        <input type="text" name="name" placeholder="Afrah mohammad" required>
+      </label>
+      <br>
+      <label>
+        Email
+        <input type="email" name="email" placeholder="Afrah3000r@gmail.com" required>
+      </label>
+      <br>
+      <label>
+        Message
+        <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+      </label>
+      <br>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  
 </body>
 </html>
-
