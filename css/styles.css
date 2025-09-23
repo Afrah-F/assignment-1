@@ -1,12 +1,120 @@
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
 }
 
-h1 {
-    color: #333;
-    margin-top: 50px;
+
+header {
+  background: #6d28d9;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
+header nav {
+  margin-bottom: 8px;
+}
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 8px;
+  font-weight: bold;
+}
+header nav a:hover { text-decoration: underline; }
+
+
+#themeToggle {
+  margin-left: 10px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+section {
+  padding: 32px 16px;
+  max-width: 900px;
+  margin: auto;
+}
+h2 {
+  color: #6d28d9;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+
+#projects article {
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.08);
+}
+#projects img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 8px;
+}
+
+
+form {
+  display: grid;
+  gap: 12px;
+  max-width: 520px;
+  margin: auto;
+}
+input, textarea, button {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+button {
+  background: #6d28d9;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+button:hover { background: #5b21b6; }
+
+
+
+
+
+#backToTop {
+  display: none; 
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 99;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: #6d28d9;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(0,0,0,.15);
+}
+#backToTop:hover { background: #5b21b6; }
+
+
+.dark-mode body { background: #0f1222; color: #e8e9ff; }
+.dark-mode header { background: #1b1f35; }
+.dark-mode h2 { color: #a58bff; }
+.dark-mode #projects article { background: #1b1f35; box-shadow: 0 2px 8px rgba(0,0,0,.25); }
+.dark-mode input, .dark-mode textarea {
+  background: #0f1222; color: #e8e9ff; border-color: #333a;
+}
+.dark-mode button { background: #8b5cf6; }
+.dark-mode #backToTop { background: #8b5cf6; }
