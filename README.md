@@ -61,12 +61,26 @@ Contact form (front-end only; no backend)
 
 
 
+
+
+
 ##✅ Checklist
 
 Three sections (About / Projects / Contact)
 Responsive design
 At least one JS feature (two included)
 ublic GitHub repo with clear structure and commits
+
+
+
+
+
+##Contact
+
+Email: Afrah3000r@gmail.com
+
+
+
 
 
 
