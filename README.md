@@ -13,21 +13,21 @@ It includes three core sections—**About Me**, **Projects**, and **Contact**—
 ---
 
 ## 📂 Project Structure
-assignment-1/
-├── index.html
-├── css/
-│ └── styles.css
-├── js/
-│ └── script.js
-├── assets/
-│ └── images/
-│ ├── clubzone.png
-│ ├── online-gaming.png
-│ └── saudi-electricity.png
-├── docs/
-│ ├── ai-usage-report.md
-│ └── technical-documentation.md
-└── README.md
+##assignment-1/
+##├── index.html
+##├── css/
+##│ └── styles.css
+##├── js/
+##│ └── script.js
+##├── assets/
+##│ └── images/
+##│ ├── clubzone.png
+##│ ├── online-gaming.png
+##│ └── saudi-electricity.png
+##├── docs/
+##│ ├── ai-usage-report.md
+##│ └── technical-documentation.md
+##└── README.md
 
 ---
 
@@ -38,7 +38,7 @@ assignment-1/
 
 
 
-   ✨ Features
+ ##  ✨ Features
 
 Responsive layout (desktop/tablet/mobile)
 
@@ -51,13 +51,24 @@ Back to Top button
 Contact form (front-end only; no backend)
 
 
-🧩 Projects Showcased
+##🧩 Projects Showcased
 
 🎯 CLUBZONE Platform (SWE206) — Web platform for managing and joining student clubs. I worked on UI design and UX improvements.
 
 🎮 Online Gaming Data Analysis (COE292) — Collected and analyzed gaming data; visualized insights about player behavior and system performance.
 
 📊 Saudi Electricity Investment Presentation (English 102) — Presentation (May 16, 2024) highlighting benefits of investing in the Saudi Electricity Company; strengthened research, academic writing, and presentation skills.
+
+
+
+##✅ Checklist
+
+Three sections (About / Projects / Contact)
+Responsive design
+At least one JS feature (two included)
+ublic GitHub repo with clear structure and commits
+
+
 
 
 AI Usage (Summary)
