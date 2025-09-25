@@ -1,40 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!--
+    Main HTML file for Afrah's portfolio
+    
+  -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Afrah Mohammed | Portfolio</title>
+
+  <!-- Link to the site stylesheet -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <!-- Simple Navbar -->
+  <!-- ====================== HEADER / NAV ====================== -->
   <header>
     <nav>
+      <!-- Internal links jump to sections by id -->
       <a href="#about">About</a> |
       <a href="#projects">Projects</a> |
       <a href="#contact">Contact</a>
-      
-      <button id="themeToggle">🌙</button>
+
+      <!-- Theme toggle button  -->
+      <button id="themeToggle" aria-label="Toggle dark/light theme">🌙</button>
     </nav>
+
+    <!-- Page title + short tagline -->
     <h1>Afrah Mohammed — Portfolio</h1>
     <p>Computer Science student who enjoys building simple web projects</p>
   </header>
 
-  <!-- About Section -->
+  <!-- ====================== ABOUT ====================== -->
   <section id="about">
     <h2>About Me</h2>
+    <!-- Personal intro — feel free to customize the text below -->
     <p>
       Hi, my name is <strong>Afrah Mohammed</strong>, a Computer Science student 👩‍💻.
       I'm passionate about technology, problem-solving, and building creative projects.
       I enjoy learning new programming skills, exploring web development, and turning ideas into reality 🚀.
     </p>
+   
   </section>
 
-  <!-- Projects Section -->
+  <!-- ====================== PROJECTS ====================== -->
   <section id="projects">
     <h2>Projects</h2>
 
-    <!-- Project 1: CLUBZONE -->
+    <!-- Project 1: Replace the image src with your actual file name in assets/images/ -->
     <article>
       <h3>🎯 CLUBZONE Platform</h3>
       <p>
@@ -46,7 +58,7 @@
       <img src="assets/images/clubzone.png" alt="CLUBZONE Project" width="400">
     </article>
 
-    <!-- Project 2: Online Gaming -->
+    <!-- Project 2 -->
     <article>
       <h3>🎮 Online Gaming Data Analysis</h3>
       <p>
@@ -57,7 +69,7 @@
       <img src="assets/images/online-gaming.png" alt="Online Gaming Data Analysis" width="400">
     </article>
 
-    <!-- Project 3: English 102 Presentation -->
+    <!-- Project 3 -->
     <article>
       <h3>📊 Saudi Electricity Investment Presentation</h3>
       <p>
@@ -69,9 +81,11 @@
     </article>
   </section>
 
-  <!-- Contact Section -->
+  <!-- ====================== CONTACT ====================== -->
   <section id="contact">
     <h2>Contact Me</h2>
+
+    
     <form>
       <label>
         Name
@@ -80,6 +94,7 @@
       <br>
       <label>
         Email
+        <!-- Update placeholder if you change your email -->
         <input type="email" name="email" placeholder="Afrah3000r@gmail.com" required>
       </label>
       <br>
@@ -92,12 +107,11 @@
     </form>
   </section>
 
-  
+  <!-- ====================== UTILITIES ====================== -->
+  <!-- Back-to-top floating button  -->
+  <button id="backToTop" title="Go to top" aria-label="Back to top">⬆️</button>
 
- 
-  <button id="backToTop" title="Go to top">⬆️</button>
-
-  <!-- JavaScript -->
+  <!-- Load site JavaScript at the end so the DOM is ready -->
   <script src="js/script.js"></script>
 </body>
 </html>
