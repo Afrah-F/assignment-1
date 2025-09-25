@@ -1,7 +1,11 @@
-
+/* =========================
+   Simple reset for all elements
+   ========================= */
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
-
+/* =========================
+   Base page styles
+   ========================= */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -9,16 +13,16 @@ body {
   color: #333;
 }
 
-
+/* =========================
+   Header & navigation
+   ========================= */
 header {
-  background: #6d28d9;
+  background: #6d28d9;   /* primary purple */
   color: #fff;
   padding: 20px;
   text-align: center;
 }
-header nav {
-  margin-bottom: 8px;
-}
+header nav { margin-bottom: 8px; }
 header nav a {
   color: #fff;
   text-decoration: none;
@@ -27,7 +31,7 @@ header nav a {
 }
 header nav a:hover { text-decoration: underline; }
 
-
+/* Theme toggle button in the header */
 #themeToggle {
   margin-left: 10px;
   padding: 6px 10px;
@@ -36,11 +40,13 @@ header nav a:hover { text-decoration: underline; }
   cursor: pointer;
 }
 
-
+/* =========================
+   Generic section layout
+   ========================= */
 section {
   padding: 32px 16px;
   max-width: 900px;
-  margin: auto;
+  margin: auto;           /* center content */
 }
 h2 {
   color: #6d28d9;
@@ -48,7 +54,9 @@ h2 {
   margin-bottom: 16px;
 }
 
-
+/* =========================
+   Project cards
+   ========================= */
 #projects article {
   background: #fff;
   border-radius: 10px;
@@ -58,13 +66,15 @@ h2 {
 }
 #projects img {
   width: 100%;
-  max-width: 400px;
+  max-width: 400px;        /* prevent images from growing too wide */
   display: block;
-  margin: 10px auto 0;
+  margin: 10px auto 0;     /* center the image */
   border-radius: 8px;
 }
 
-
+/* =========================
+   Contact form
+   ========================= */
 form {
   display: grid;
   gap: 12px;
@@ -86,12 +96,11 @@ button {
 }
 button:hover { background: #5b21b6; }
 
-
-
-
-
+/* =========================
+   Back-to-Top floating button
+   ========================= */
 #backToTop {
-  display: none; 
+  display: none;           /* shown via JS after scrolling */
   position: fixed;
   right: 18px;
   bottom: 18px;
@@ -108,7 +117,10 @@ button:hover { background: #5b21b6; }
 }
 #backToTop:hover { background: #5b21b6; }
 
-
+/* =========================
+   Dark Mode
+   Apply the .dark-mode class on <html> via JS
+   ========================= */
 .dark-mode body { background: #0f1222; color: #e8e9ff; }
 .dark-mode header { background: #1b1f35; }
 .dark-mode h2 { color: #a58bff; }
